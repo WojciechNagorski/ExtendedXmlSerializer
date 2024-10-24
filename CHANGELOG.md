@@ -1,3 +1,17 @@
+# [ExtendedXmlSerializer v3.8.0](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.8.0)
+> 10/24/2024 07:40:55 UTC
+##### ``v3.8.0``
+## What&#39;s Changed
+* [Automated] Generated CHANGELOG.md by @github-actions in https://github.com/ExtendedXmlSerializer/home/pull/627
+* Added referenced (existing instance) deserializer overload for XmlReader by @Mike-E-angelo in https://github.com/ExtendedXmlSerializer/home/pull/632
+* Removed .NET6&amp;7 and replaced with .NET8 by @Mike-E-angelo in https://github.com/ExtendedXmlSerializer/home/pull/634
+* Bump actions/download-artifact from 1 to 4.1.7 in /.github/workflows by @dependabot in https://github.com/ExtendedXmlSerializer/home/pull/635
+* Enable support for generated lists by @Mike-E-angelo in https://github.com/ExtendedXmlSerializer/home/pull/638
+
+## New Contributors
+* @dependabot made their first contribution in https://github.com/ExtendedXmlSerializer/home/pull/635
+
+**Full Changelog**: https://github.com/ExtendedXmlSerializer/home/compare/v3.7.18...v3.8.0
 # [ExtendedXmlSerializer v3.7.18](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.7.18)
 > 03/23/2024 11:20:53 UTC
 ##### ``v3.7.18``
@@ -237,13 +251,5 @@ https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.7.2
 ### &#128027; Bug Fixes &#128295; 
 - Accounted for rare state when namespace prefix is `null`. #424 @Mike-E-angelo 
 - Improved member resolution for parameterized content #428 @Mike-E-angelo 
-
-# [ExtendedXmlSerializer v3.2.4](https://github.com/ExtendedXmlSerializer/home/releases/tag/v3.2.4)
-> 07/21/2020 17:47:55 UTC
-##### ``v3.2.4``
-### &#128027; Bug Fixes &#128295; 
-- Member resolution now uses ReflectedType first, then DeclaredType. #417 @Mike-E-wins 
-- Fixed references resolution bugs during deserialization #420 @Mike-E-wins 
-- Added support for IReadOnlyList properties. #421 @Mike-E-wins 
 
 
